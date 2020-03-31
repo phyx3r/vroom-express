@@ -14,36 +14,36 @@ cliArgs:
 routingServers:
   osrm:
     car:
-      host: '0.0.0.0'
+      host: 'osrm'
       port: '5000'
     bike:
-      host: '0.0.0.0'
+      host: 'osrm'
       port: '5000'
     foot:
-      host: '0.0.0.0'
+      host: 'osrm'
       port: '5000'
   ors:
     driving-car:
-      host: '0.0.0.0'
+      host: 'ors'
       port: '8080'
     driving-hgv:
-      host: '0.0.0.0'
+      host: 'ors'
       port: '8080'
     cycling-regular:
-      host: '0.0.0.0'
+      host: 'ors'
       port: '8080'
     cycling-mountain:
-      host: '0.0.0.0'
+      host: 'ors'
       port: '8080'
     cycling-road:
-      host: '0.0.0.0'
+      host: 'ors'
       port: '8080'
     cycling-electric:
-      host: '0.0.0.0'
+      host: 'ors'
       port: '8080'
     foot-walking:
-      host: '0.0.0.0'
+      host: 'ors'
       port: '8080'
     foot-hiking:
-      host: '0.0.0.0'
+      host: 'ors'
       port: '8080'
